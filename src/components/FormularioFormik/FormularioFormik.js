@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { Formik } from 'formik';
 
-import "./FormularioFormik.css"
+import './FormularioFormik.css'
 
 function FormularioFormik() {
     const [formEnviado, setFormEnviado] = useState(false);
